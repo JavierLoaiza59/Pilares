@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5</title>
+</head>
+<body>
+    <ol>
+        <li><h1>Etiqueta &lt;article&gt; - Diseñada con CSS</h1>
+            <article class="all-browsers">
+                <h1>Navegadores más populares</h1>
+                <article class="browser">
+                    <h2>Google Chrome</h2>
+                    <p>Google Chrome es un navegador web desarrollado por Google, lanzado en 2008. Chrome es el navegador web
+                        más popular del mundo en la actualidad.!</p>
+                </article>
+                <article class="browser">
+                    <h2>Mozilla Firefox</h2>
+                    <p>Mozilla Firefox es un navegador web de código abierto desarrollado por Mozilla. Firefox ha sido el segundo navegador web más popular desde enero de 2018.</p>
+                </article>
+                <article class="browser">
+                    <h2>Microsoft Edge</h2>
+                    <p>Microsoft Edge is es un navegador web desarrollado por Microsoft, lanzado en 2015. Microsoft Edge reemplazó a Internet Explorer.</p>
+                </article>
+            </article>
+        </li>
+        <li><h1>The aside element</h1>
+            <p>Mi familia y yo visitamos el centro Epcot este verano. ¡El clima estuvo agradable y Epcot fue increíble! ¡Pasé un
+                gran verano junto con mi familia!</p>
+                <aside>
+                    <p>
+                        El centro Epcot es un parque temático en Walt Disney World Resort que cuenta con emocionantes atracciones,
+                        internacionales
+                        pabellones, fuegos artificiales galardonados y eventos especiales de temporada.</p>
+                </aside>
+        </li>
+        <li><h3>Demostración de como acceder a un elemento &lt;hgroup&gt;</h3>
+            <hgroup id="miHgroup">
+                <h1>Bienvenido a mi Ejemplo</h1>
+                <h2>Aprende HTML</h2>
+              </hgroup>
+              <p>Haga clic en el botón para obtener el contenido del elemento hgroup.</p>
+              <p id="demo">
+                <h1>Bienvenido a mi Ejemplo</h1>
+                <h2>Aprende HTML</h2>
+              </p>
+              <script>
+                function miFuncion() {
+                  var x = document.getElementById("miHgroup").innerHTML;
+                  document.getElementById("demo").innerHTML = x;
+                }
+                </script> 
+        </li>
+      </ol>
+      
+</body>
+</html>
